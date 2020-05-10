@@ -1,0 +1,863 @@
+/*  Ein Kommentar in CSS */
+
+/*  Der * definiert den "global reset" Hier werden alle Elemente angesprochen, die später nicht anders definiert werden. */
+*
+{
+/* margin definiert den Aussenabstand einer Box */	
+	margin:0px;	
+/* padding definiert	den Innenabstand einer Box */
+	padding:0px;
+/* font-family definiert die Schriftart */	
+	font-family: 'Dosis', sans-serif;
+}
+
+
+html,body
+{
+	height:100%;
+}
+
+body 
+{
+	background:white;
+	color:black;
+	margin:0px;
+}
+
+#mama
+{
+    width: 1100px;
+    background: white;
+    margin: auto;
+    position: relative;
+}
+
+/*HEADER*/
+#eins
+{
+    height: 100px;
+}
+
+#logo
+{
+    height:80px;
+    float:left;
+    margin-top: 10px;
+}
+
+#social
+{
+    height: 30px;
+    float: right;
+    margin-top: 10px;
+    padding-right: 10px;
+    letter-spacing: 5px;
+}
+
+/*NAVI*/
+#zwei
+{
+    height: 40px;
+    
+}
+
+#navi
+{
+    width: 1100px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navi-mobil
+{
+    display: none;
+}
+
+.navipunkt
+{
+    width: 100%;
+    line-height: 40px;
+    font-family: 'Dosis',sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
+
+/*DREI*/
+#drei
+{
+    height: 667px;
+}
+
+/*FADESHOW*/
+#fadeshow
+{
+    width: 100%;
+    line-height: 667px;
+    margin-top: 30px;
+}
+
+/*BIBLIOTHEK*/
+#vier-bibliothek
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#bibliothek-cover
+{
+    margin-top: 30px;
+}
+
+.header-bibliothek
+{
+    width:100%;
+    font-size: 30px;
+    font-family: 'Sacramento', sans-serif;
+    text-align: center;
+    height: 50px;
+    color: #004091;
+}
+
+.text-bibliothek
+{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#fuenf-bibliothek
+{
+    width: 100%;
+    height: 220px;
+}
+
+#bilder-bibliothek
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*CAFE*/
+#cafe-cover
+{
+    margin-top: 30px;
+}
+.text-cafe
+{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#menu
+{
+    width: 100%;
+    margin-top: 150px;
+}
+
+#menu-header
+{
+    width: 100%;
+    border-top: solid 2px rgba(93,162,219,.5);
+    color: #004091;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Sacramento', sans-serif;
+}
+
+.titel-menu
+{
+    width: 100%;
+    line-height: 80px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Sacramento', sans-serif;
+    margin-top: 0px;
+}
+
+.text-menu
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+/*AUSSTELLUNG*/
+#ausstellung-header
+{
+    width: 100%;
+    color: #004091;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Sacramento', sans-serif;
+}
+
+.text-ausstellung
+{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+
+#fuenf-ausstellung
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ausstellung-1
+{
+    margin-top: 20px;
+    border: solid 5px #0a9aa5;
+    width: 300px;
+    min-height: 400px;
+}
+
+#ausstellung-2
+{
+    margin-top: 20px;
+    border: solid 5px #CE0C52;
+    width: 300px;
+    min-height: 400px;
+}
+
+#ausstellung-3
+{
+    margin-top: 20px;
+    border: solid 5px #ECEE6F;
+    width: 300px;
+    min-height: 400px;
+}
+
+/*VIER*/
+#vier
+{
+    width: auto;
+    min-height: 80px;
+    text-align: justify;
+    font-weight: 100;
+    padding:10px;
+    margin-top: 15px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.text-index
+{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+/*SAMMLUNG*/
+#fuenf-sammlung
+{
+    display: flex;
+    justify-content: space-between;
+}
+.text-sammlung
+{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+#sammlung-1
+{
+    margin-top: 20px;
+    border: solid 5px #0a9aa5;
+    width: 300px;
+    min-height: 400px;
+}
+
+#sammlung-2
+{
+    margin-top: 20px;
+    border: solid 5px #CE0C52;
+    width: 300px;
+    min-height: 400px;
+}
+
+#sammlung-3
+{
+    margin-top: 20px;
+    border: solid 5px #ECEE6F;
+    width: 300px;
+    min-height: 400px;
+}
+
+/*GALLERY*/
+#fuenf-galerie
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 56,25%;
+    overflow: hidden;
+}
+
+.text-galerie
+{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*EVENTS*/
+#events-cover
+{
+    margin-top: 30px;
+}
+
+.text-events
+{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#vier-events
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#event-1
+{
+    margin-top: 100px;
+    border: solid 5px #0a9aa5;
+    width: 300px;
+    min-height: 400px;
+}
+
+.content-box
+{
+    text-align: center;
+}
+
+.titel-event
+{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.text-content
+{
+    text-align: justify;
+    padding: 12px;
+}
+
+.mehr
+{
+    font-weight: bold;
+    text-align: right;
+    padding-right: 12px;
+}
+
+#termin-event
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#event-2
+{
+    margin-top: 100px;
+    border: solid 5px #CE0C52;
+    width: 300px;
+    min-height: 400px;
+}
+
+#event-3
+{
+    margin-top: 100px;
+    border: solid 5px #004091;
+    width: 300px;
+    min-height: 400px;
+}
+
+/*FUENF*/
+#fuenf
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 15px;
+}
+
+/*TEAM*/
+#fuenf-index
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-team
+{
+    text-align: justify;
+    padding: 12px;
+    
+}
+
+.titel-team
+{
+    font-size: 30px;
+    margin-top: 10px;
+}
+#team-1
+{
+    margin-top: 20px;
+    border: solid 5px #0a9aa5;
+    width: 300px;
+    min-height: 400px;
+}
+
+#team-2
+{
+    margin-top: 20px;
+    border: solid 5px #CE0C52;
+    width: 300px;
+    min-height: 400px;
+}
+
+#team-3
+{
+    margin-top: 20px;
+    border: solid 5px #ECEE6F;
+    width: 300px;
+    min-height: 400px;
+}
+
+/*FOOTER*/
+#sechs
+{
+    width: 100%;
+    height:40px;
+    text-align: center;
+    background-color: #004091;
+}
+
+.copyright
+{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;;
+}
+
+/*IMPRESSUM*/
+#text
+{
+    width: 1100;
+    background-color: rgba(181,246,242,.5);
+    margin-top: 30px;
+    padding: 30px;
+    font-size: 16px;
+}
+
+.header-impressum
+{
+    color: #004091;
+    font-family: 'Dosis',sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+/*KONTAKT*/
+#fuenf-kontakt
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 56,25%;
+    overflow: hidden;
+}
+
+#kontakt-maps
+{
+    width: 100%;
+    display: flex;
+    background-color: rgba(181,246,242,.5);
+    margin-top: 10px;
+}
+
+#kontakt
+{
+    width: 50%;
+}
+
+#maps
+{
+    width: 50%;
+    text-align: center;
+    padding-right: 25px;
+}
+
+#header-maps
+{
+    font-family:'Dosis', sans-serif;
+    font-size:24px; 
+    font-weight:bold;
+    color:#004091;
+    padding-top: 90px;
+    text-align: left;
+}
+
+#text-maps
+{
+    font-size: 16px;
+    text-align: left;
+}
+
+a
+{
+	color:black;
+	text-decoration:none;
+}
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width:800px) {
+
+#mama
+{
+    width: 100%;
+}
+    
+#eins
+{
+    height: 80px;
+    display: inline;
+}
+
+#logo
+{
+    min-width:50%;
+    height: 50%;
+    float:none;
+    padding-top: 10px;
+    text-align: left;
+}
+    
+#social
+{
+    height: 30px;
+    float: none;
+    text-align: right;
+    margin-top: 10px;
+}    
+    
+#zwei
+{
+    width: 96%;
+    height: 40px;
+}
+
+#navi
+{
+    width: 96%;
+    height: 40px;
+    display: none;
+}   
+
+#navi-mobil
+{
+    display:block;
+}
+    
+#drei
+{
+    width: 100%;
+}
+    
+#vier
+{
+    width: auto;
+    min-height: 80px;
+    text-align: justify;
+    background-color: white;
+    padding: 15px;
+    font-size: 15px;
+}    
+    
+#fuenf-index 
+{
+    display:flex;
+    flex-wrap: wrap;
+    _margin:30px;
+    justify-content: space-evenly;
+}
+    
+#fuenf-index > #team-1, #team-2
+{
+    margin-bottom: 20px;
+}    
+
+    
+#fuenf-ausstellung
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+    
+#fuenf-ausstellung > #ausstellung-1, #ausstellung-2
+{
+    margin-bottom: 20px;
+}
+    
+#ausstellung-header
+{
+    width: 100%;
+    font-size: 3em;
+    text-align: center;
+}   
+    
+.text-ausstellung
+{
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+    
+#fuenf-sammlung
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+    
+#fuenf-sammlung > #sammlung-1, #sammlung-2
+{
+    margin-bottom: 20px;
+}
+.text-sammlung
+{
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#fuenf-galerie
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#fuenf-galerie iframe
+{
+    width: 80%;
+    height: 100%;
+    margin-left: 80px;
+    box-shadow: 0px 0px 5px 10px lightgray;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.text-galerie
+{
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+    
+.text-events
+{
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 30px;
+}
+ 
+#vier-events
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+    
+#vier-events > #event-1, #event-2
+{
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+#vier-events > #event-3
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#sechs
+{
+    _display: block;
+    
+}
+    
+#drei-bibliothek
+{
+    height: 450px;
+}
+
+.header-bibliothek
+{
+    display: none;
+}
+
+#vier-bibliothek
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.text-bibliothek
+{
+    width: 90%;
+    font-size: 1.5em;
+    _text-align: center;
+    _margin: 0px 10px 0px 10px;
+    
+}
+    
+#bibliothek-cover
+{
+    margin-bottom: 0px;
+    
+}
+    
+#fuenf-bibliothek
+{
+    width: 100%;
+    height: 250px;
+    margin-top: -30px;
+    _background-color: blue;
+}
+
+#bilder-bibliothek
+{
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    _padding: 20px;
+    
+}
+
+.bild-1, .bild-2, .bild-3, .bild-4, .bild-5
+    {
+        padding: 15px;
+    }
+
+/*CAFE*/
+.text-cafe
+{
+    width: 90%;
+    font-size: 1.5em;
+    margin: 20px 40px 20px 40px;
+    padding-top: 10px;
+    text-align: center;
+}
+       
+#menu
+{
+    width: 100%;
+    margin-top: 30px;
+}
+
+#menu-header
+{
+    width: 100%;
+    font-size: 3.5em;
+    text-align: center;
+    border-top: none;
+    margin-bottom: 20px;
+}
+    
+#menu > .titel-menu
+{
+    width: 100%;
+    line-height: auto;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+.text-menu
+{
+    width: 90%;
+    font-size: 1.5em;
+    margin: 10px;
+    _padding-top: 10px;
+    text-align: center;
+}  
+
+/*KONTAKT*/  
+#kontakt-maps
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+    
+#kontakt
+{
+    width: 100%;
+    margin: 0px;
+}
+    
+#header-maps
+{
+    width:100%;
+    position: absolute;
+    right: -50px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+    
+#maps
+{
+    width: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+#text-maps
+{
+    width: 100%;
+    padding-left: 50px;
+}
+    
+#fuenf-kontakt
+{
+    max-width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+}
+     
+
+img
+{
+	max-width:100%;
+	height:auto;
+}
+	
+	
+}
